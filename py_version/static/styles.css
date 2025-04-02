@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0288d1;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #0288d1;
+}
+
+input {
+    padding: 8px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #0288d1;
+}
+
+button {
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0277bd;
+}
+
+.matrices-container {
+    margin-top: 20px;
+}
+
+.matrices-container table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.matrices-container td {
+    padding: 10px;
+    text-align: center;
+}
+
+.result-container {
+    margin-top: 20px;
+}
+
+.result-container table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.result-container td {
+    padding: 10px;
+    text-align: center;
+}

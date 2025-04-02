@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicación de Matrices</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multiplicación de Matrices</h1>
+        
+        <!-- Texto explicativo para el usuario -->
+        <p>
+            En este formulario, podrás ingresar dos matrices para multiplicarlas. Asegúrate de que el número de columnas de la Matriz 1 sea igual al número de filas de la Matriz 2. 
+            Ingresa las dimensiones de cada matriz (filas y columnas) y luego llena los valores de cada celda. Una vez que hayas ingresado los datos, podrás hacer clic en "Multiplicar Matrices" para obtener el resultado.
+        </p>
+
+        <div class="input-group">
+            <label for="rows1">Filas de la Matriz 1:</label>
+            <input type="number" id="rows1" placeholder="Filas Matriz 1" min="1">
+        </div>
+        <div class="input-group">
+            <label for="cols1">Columnas de la Matriz 1:</label>
+            <input type="number" id="cols1" placeholder="Columnas Matriz 1" min="1">
+        </div>
+        <div class="input-group">
+            <label for="rows2">Filas de la Matriz 2:</label>
+            <input type="number" id="rows2" placeholder="Filas Matriz 2" min="1">
+        </div>
+        <div class="input-group">
+            <label for="cols2">Columnas de la Matriz 2:</label>
+            <input type="number" id="cols2" placeholder="Columnas Matriz 2" min="1">
+        </div>
+        <button onclick="createMatrixInputs()">Crear Matrices</button>
+
+        <div id="matrices" class="matrix-container"></div>
+
+        <button onclick="multiplyMatrices()">Multiplicar Matrices</button>
+
+        <div id="result"></div>
+    </div>
+</body>
+</html>
