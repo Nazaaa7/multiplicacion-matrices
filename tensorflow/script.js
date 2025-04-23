@@ -1,8 +1,9 @@
 function createMatrixInputs() {
-    const rows1 = parseInt(document.getElementById('rows1').value);
-    const cols1 = parseInt(document.getElementById('cols1').value);
-    const rows2 = parseInt(document.getElementById('rows2').value);
-    const cols2 = parseInt(document.getElementById('cols2').value);
+    const rows1 = parseInt(document.getElementById('filas1').value);
+    const cols1 = parseInt(document.getElementById('columnas1').value);
+    const rows2 = parseInt(document.getElementById('filas2').value);
+    const cols2 = parseInt(document.getElementById('columnas2').value);
+
     if (cols1 !== rows2) {
         alert('El número de columnas de la Matriz 1 debe ser igual al número de filas de la Matriz 2.');
         return;

@@ -10,13 +10,12 @@ body {
 
 .container {
     background: white;
-    padding: 20px;
+    padding: 30px 40px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 500px;
+    width: 600px;
+    max-width: 95%;
     text-align: center;
-    display: flex;
-    flex-direction: column;
 }
 
 h1 {
@@ -26,19 +25,23 @@ h1 {
 }
 
 .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 15px;
 }
 
 .input-group label {
-    margin-bottom: 5px;
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
     font-size: 16px;
     color: #0288d1;
 }
 
-input {
+.input-group input {
+    flex: 2;
     padding: 8px;
-    width: 80%;
-    margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #0288d1;
 }
@@ -58,31 +61,18 @@ button:hover {
     background-color: #0277bd;
 }
 
-.matrices-container {
+.matrices-container,
+.result-container {
     margin-top: 20px;
 }
 
-.matrices-container table {
+table {
     margin: auto;
     border-collapse: collapse;
     width: 100%;
 }
 
-.matrices-container td {
-    padding: 10px;
-    text-align: center;
-}
-
-.result-container {
-    margin-top: 20px;
-}
-
-.result-container table {
-    margin: auto;
-    border-collapse: collapse;
-}
-
-.result-container td {
+td {
     padding: 10px;
     text-align: center;
 }
