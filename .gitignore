@@ -1,0 +1,6 @@
+# Ignorar node_modules dentro de js_version
+js_version/node_modules/
+
+# Ignorar el entorno virtual de Python y archivos sensibles
+py_version/.venv/
+
